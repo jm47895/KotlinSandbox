@@ -1,8 +1,12 @@
-
+import Leetcode.balancedStringSplitSolution
 
 fun main(){
 
-    println("Hello world")
+    val leetCode = balancedStringSplitSolution()
+
+    println(leetCode.balancedStringSplit("RLLLLRRRLR"))
+
+    /*println("Hello world")
 
     println(Functions().sumOfTwoNums(2,3 )) //Create objects of classes using "Function()"
     println(Functions().inferredSumOfTwoNums(2, 3)) //Use the dot operator to access member functions
@@ -12,13 +16,13 @@ fun main(){
     val add = Functions().sumOfTwoNums(6 , 10) //Variables can be assigned functions
     println(add)
 
-    /*
+    *//*
     Positional arguments should be called before named arguments
-     */
+     *//*
     Functions().defaultValuesForParametersFun(5, 7, 9, 1)
     Functions().defaultValuesForParametersFun(1, d = 4)
     Functions().defaultValuesForParametersFun(5, 7, d = 6)
-    Functions().defaultValuesForParametersFun(5, c = 3, d = 9)
+    Functions().defaultValuesForParametersFun(5, c = 3, d = 9)*/
 
 }
 
