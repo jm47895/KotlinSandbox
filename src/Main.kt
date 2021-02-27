@@ -1,10 +1,21 @@
+import Hackerrank.GradingStudentsSolution
+import Leetcode.MaximumWealthSolution
+import Leetcode.MergeAlternatelySolution
 import Leetcode.balancedStringSplitSolution
+import java.util.*
 
 fun main(){
 
-    val leetCode = balancedStringSplitSolution()
+    val leetCode = MaximumWealthSolution()
 
-    println(leetCode.balancedStringSplit("RLLLLRRRLR"))
+    val customer1 = intArrayOf(2,8,7)
+    val customer2 = intArrayOf(7,1,3)
+    val customer3 = intArrayOf(1,9,5)
+
+    val customerAccounts: Array<IntArray> = arrayOf(customer1, customer2, customer3)
+
+    leetCode.maximumWealth(customerAccounts)
+
 
     /*println("Hello world")
 
